@@ -1,0 +1,14 @@
+uuid: 8370cf5b-6c3f-4c66-aa52-adc5251d0570
+name: divan-shop-api
+mail: moby76@mail.ru
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
