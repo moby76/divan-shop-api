@@ -1,0 +1,8 @@
+uuid: e5b808b6-187e-49a3-bf05-b908aa56e321
+langcode: en
+status: true
+dependencies: {  }
+name: 'Конфигурации мягкой мебели'
+vid: soft_config
+description: ''
+weight: 0

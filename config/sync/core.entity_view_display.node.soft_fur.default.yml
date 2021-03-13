@@ -1,0 +1,80 @@
+uuid: cb86827e-1889-40a7-8932-e4c49fd42f84
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.soft_fur.body
+    - field.field.node.soft_fur.field_available
+    - field.field.node.soft_fur.field_new_item
+    - field.field.node.soft_fur.field_photo
+    - field.field.node.soft_fur.field_price_base
+    - field.field.node.soft_fur.field_soft_config
+    - node.type.soft_fur
+  module:
+    - image
+    - text
+    - user
+id: node.soft_fur.default
+targetEntityType: node
+bundle: soft_fur
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_available:
+    weight: 102
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_new_item:
+    weight: 104
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_photo:
+    weight: 105
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_price_base:
+    weight: 103
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_soft_config:
+    weight: 106
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

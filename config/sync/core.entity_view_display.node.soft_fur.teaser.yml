@@ -1,0 +1,40 @@
+uuid: 1823abad-e9ee-46a5-810d-9282360d8a6f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.soft_fur.body
+    - field.field.node.soft_fur.field_available
+    - field.field.node.soft_fur.field_new_item
+    - field.field.node.soft_fur.field_photo
+    - field.field.node.soft_fur.field_price_base
+    - field.field.node.soft_fur.field_soft_config
+    - node.type.soft_fur
+  module:
+    - text
+    - user
+id: node.soft_fur.teaser
+targetEntityType: node
+bundle: soft_fur
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_available: true
+  field_new_item: true
+  field_photo: true
+  field_price_base: true
+  field_soft_config: true
