@@ -137,7 +137,7 @@ resourceFields:
     disabled: false
   field_new_item:
     fieldName: field_new_item
-    publicName: field_new_item
+    publicName: new_item
     enhancer:
       id: ''
     disabled: false

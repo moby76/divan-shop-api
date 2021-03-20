@@ -1,6 +1,6 @@
 uuid: ee632718-f17e-4171-94cd-dbc89893e850
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.tools

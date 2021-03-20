@@ -9,6 +9,7 @@ dependencies:
     - field.field.node.soft_fur.field_photo
     - field.field.node.soft_fur.field_price_base
     - field.field.node.soft_fur.field_soft_config
+    - image.style.large
     - node.type.soft_fur
   module:
     - image
@@ -50,7 +51,7 @@ content:
     weight: 105
     label: above
     settings:
-      image_style: ''
+      image_style: large
       image_link: ''
     third_party_settings: {  }
     type: image
@@ -74,7 +75,7 @@ content:
     region: content
   links:
     weight: 100
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
 hidden: {  }
