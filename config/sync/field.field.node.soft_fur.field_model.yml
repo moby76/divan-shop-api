@@ -1,0 +1,29 @@
+uuid: b48477f0-6261-431b-af83-83aa2d4bd858
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_model
+    - node.type.soft_fur
+    - taxonomy.vocabulary.models
+id: node.soft_fur.field_model
+field_name: field_model
+entity_type: node
+bundle: soft_fur
+label: Модель
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      models: models
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

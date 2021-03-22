@@ -1,0 +1,8 @@
+uuid: 395155bb-2eeb-4ffb-863b-31080afe65db
+langcode: en
+status: true
+dependencies: {  }
+name: 'Модели мягкой мебели'
+vid: models
+description: ''
+weight: 0

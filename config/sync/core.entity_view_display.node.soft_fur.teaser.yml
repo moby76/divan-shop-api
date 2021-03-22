@@ -6,6 +6,7 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.soft_fur.body
     - field.field.node.soft_fur.field_available
+    - field.field.node.soft_fur.field_model
     - field.field.node.soft_fur.field_new_item
     - field.field.node.soft_fur.field_photo
     - field.field.node.soft_fur.field_price_base
@@ -34,6 +35,7 @@ content:
     region: content
 hidden:
   field_available: true
+  field_model: true
   field_new_item: true
   field_photo: true
   field_price_base: true

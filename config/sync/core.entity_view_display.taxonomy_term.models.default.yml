@@ -1,0 +1,39 @@
+uuid: 6f3e7a43-9851-425c-87ab-c78a5fa1abb5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.models.field_name
+    - field.field.taxonomy_term.models.field_variant
+    - taxonomy.vocabulary.models
+  module:
+    - text
+id: taxonomy_term.models.default
+targetEntityType: taxonomy_term
+bundle: models
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_name:
+    weight: 2
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_variant:
+    weight: 1
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden: {  }

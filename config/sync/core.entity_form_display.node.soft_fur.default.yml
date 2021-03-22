@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.soft_fur.body
     - field.field.node.soft_fur.field_available
+    - field.field.node.soft_fur.field_model
     - field.field.node.soft_fur.field_new_item
     - field.field.node.soft_fur.field_photo
     - field.field.node.soft_fur.field_price_base
@@ -41,6 +42,12 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: options_buttons
+    region: content
+  field_model:
+    weight: 127
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
     region: content
   field_new_item:
     weight: 124

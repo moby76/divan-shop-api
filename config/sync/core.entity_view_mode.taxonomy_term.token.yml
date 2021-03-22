@@ -1,0 +1,10 @@
+uuid: afba21cc-d9c0-4251-be8c-74f188cd4792
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: taxonomy_term.token
+label: Token
+targetEntityType: taxonomy_term
+cache: true

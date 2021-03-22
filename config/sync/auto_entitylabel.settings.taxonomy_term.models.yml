@@ -1,0 +1,9 @@
+status: 1
+pattern: '[term:field_name]/[term:field_variant]'
+escape: false
+preserve_titles: false
+save: 0
+chunk: '50'
+dependencies:
+  config:
+    - taxonomy.vocabulary.models

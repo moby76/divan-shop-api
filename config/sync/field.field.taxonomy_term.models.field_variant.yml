@@ -1,0 +1,29 @@
+uuid: 9f863baa-8ef4-43b9-b8f5-f43f6b3d1554
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_variant
+    - taxonomy.vocabulary.models
+    - taxonomy.vocabulary.variant
+id: taxonomy_term.models.field_variant
+field_name: field_variant
+entity_type: taxonomy_term
+bundle: models
+label: Вариант
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      variant: variant
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

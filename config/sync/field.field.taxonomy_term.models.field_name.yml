@@ -1,0 +1,19 @@
+uuid: b4868a3f-a2c0-4b0a-b967-67a05a1c3326
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_name
+    - taxonomy.vocabulary.models
+id: taxonomy_term.models.field_name
+field_name: field_name
+entity_type: taxonomy_term
+bundle: models
+label: Наименование
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
