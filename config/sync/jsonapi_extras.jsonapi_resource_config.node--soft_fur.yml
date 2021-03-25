@@ -123,6 +123,12 @@ resourceFields:
     enhancer:
       id: ''
     disabled: false
+  menu_link:
+    fieldName: menu_link
+    publicName: menu_link
+    enhancer:
+      id: ''
+    disabled: false
   body:
     fieldName: body
     publicName: body
@@ -132,6 +138,12 @@ resourceFields:
   field_available:
     fieldName: field_available
     publicName: available
+    enhancer:
+      id: ''
+    disabled: false
+  field_model:
+    fieldName: field_model
+    publicName: model
     enhancer:
       id: ''
     disabled: false
