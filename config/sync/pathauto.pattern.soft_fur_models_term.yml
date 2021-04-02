@@ -1,0 +1,23 @@
+uuid: 011829e0-d6b3-4ad2-9768-eb0402ef3bd5
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - taxonomy
+id: soft_fur_models_term
+label: 'Модели мягкой мебели'
+type: 'canonical_entities:taxonomy_term'
+pattern: 'models/[term:tid]'
+selection_criteria:
+  438c40da-29cc-43fe-9f24-186988ff8741:
+    id: 'entity_bundle:taxonomy_term'
+    bundles:
+      models: models
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    uuid: 438c40da-29cc-43fe-9f24-186988ff8741
+selection_logic: and
+weight: -5
+relationships: {  }

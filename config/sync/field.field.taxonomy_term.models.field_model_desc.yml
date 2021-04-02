@@ -1,0 +1,27 @@
+uuid: a8582732-1280-4995-afa0-c5a7fca4ec4d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_model_desc
+    - taxonomy.vocabulary.models
+  module:
+    - text
+id: taxonomy_term.models.field_model_desc
+field_name: field_model_desc
+entity_type: taxonomy_term
+bundle: models
+label: 'Описание модели'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    summary: 'Данная модель пока не имеет описания ...'
+    value: ''
+    format: basic_html
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: true
+field_type: text_with_summary

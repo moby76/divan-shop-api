@@ -3,10 +3,14 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.taxonomy_term.models.field_model_desc
     - field.field.taxonomy_term.models.field_name
+    - field.field.taxonomy_term.models.field_scheme
     - field.field.taxonomy_term.models.field_variant
+    - image.style.thumbnail
     - taxonomy.vocabulary.models
   module:
+    - image
     - path
     - text
 id: taxonomy_term.models.default
@@ -14,14 +18,16 @@ targetEntityType: taxonomy_term
 bundle: models
 mode: default
 content:
-  description:
-    type: text_textarea
-    weight: 3
-    region: content
+  field_model_desc:
+    weight: 2
     settings:
+      rows: 9
+      summary_rows: 3
       placeholder: ''
-      rows: 5
+      show_summary: false
     third_party_settings: {  }
+    type: text_textarea_with_summary
+    region: content
   field_name:
     weight: 1
     settings:
@@ -30,8 +36,16 @@ content:
     third_party_settings: {  }
     type: string_textfield
     region: content
+  field_scheme:
+    weight: 6
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
   field_variant:
-    weight: 2
+    weight: 3
     settings: {  }
     third_party_settings: {  }
     type: options_select
@@ -57,4 +71,5 @@ content:
     weight: 5
     region: content
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  description: true

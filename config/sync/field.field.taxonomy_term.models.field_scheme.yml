@@ -1,0 +1,38 @@
+uuid: 29a44167-7a7c-4403-91f8-68be0d291d8f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_scheme
+    - taxonomy.vocabulary.models
+  module:
+    - image
+id: taxonomy_term.models.field_scheme
+field_name: field_scheme
+entity_type: taxonomy_term
+bundle: models
+label: Схема
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: false
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: c60edee5-460a-4e89-8e84-ffb2a57e974d
+    alt: ''
+    title: ''
+    width: 470
+    height: 360
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image
