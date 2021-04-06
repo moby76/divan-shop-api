@@ -19,7 +19,7 @@ default_value:
   -
     summary: 'Данная модель пока не имеет описания ...'
     value: ''
-    format: basic_html
+    format: restricted_html
 default_value_callback: ''
 settings:
   display_summary: true

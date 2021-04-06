@@ -24,6 +24,13 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_model_desc:
+    type: text_default
+    weight: 3
+    region: content
+    label: above
+    settings: {  }
+    third_party_settings: {  }
   field_name:
     weight: 0
     label: above
@@ -42,5 +49,4 @@ content:
     type: image
     region: content
 hidden:
-  field_model_desc: true
   field_variant: true

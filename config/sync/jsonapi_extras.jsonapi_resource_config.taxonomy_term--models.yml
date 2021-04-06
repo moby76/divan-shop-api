@@ -117,6 +117,12 @@ resourceFields:
     enhancer:
       id: ''
     disabled: false
+  field_description:
+    fieldName: field_description
+    publicName: description
+    enhancer:
+      id: ''
+    disabled: false
   field_model_desc:
     fieldName: field_model_desc
     publicName: model_desc

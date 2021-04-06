@@ -19,7 +19,7 @@ bundle: models
 mode: default
 content:
   field_model_desc:
-    weight: 2
+    weight: 3
     settings:
       rows: 9
       summary_rows: 3
@@ -37,7 +37,7 @@ content:
     type: string_textfield
     region: content
   field_scheme:
-    weight: 6
+    weight: 7
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
@@ -45,7 +45,7 @@ content:
     type: image_image
     region: content
   field_variant:
-    weight: 3
+    weight: 4
     settings: {  }
     third_party_settings: {  }
     type: options_select
@@ -60,7 +60,7 @@ content:
     third_party_settings: {  }
   path:
     type: path
-    weight: 4
+    weight: 5
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -68,7 +68,7 @@ content:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 5
+    weight: 6
     region: content
     third_party_settings: {  }
 hidden:
