@@ -171,3 +171,9 @@ resourceFields:
     enhancer:
       id: ''
     disabled: false
+  field_transformation:
+    fieldName: field_transformation
+    publicName: transformation
+    enhancer:
+      id: ''
+    disabled: false
