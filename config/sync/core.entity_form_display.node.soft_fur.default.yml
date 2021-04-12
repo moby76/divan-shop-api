@@ -5,6 +5,9 @@ dependencies:
   config:
     - field.field.node.soft_fur.body
     - field.field.node.soft_fur.field_available
+    - field.field.node.soft_fur.field_dimensions
+    - field.field.node.soft_fur.field_features
+    - field.field.node.soft_fur.field_filling
     - field.field.node.soft_fur.field_model
     - field.field.node.soft_fur.field_new_item
     - field.field.node.soft_fur.field_photo
@@ -16,6 +19,7 @@ dependencies:
   module:
     - image
     - path
+    - text
 id: node.soft_fur.default
 targetEntityType: node
 bundle: soft_fur
@@ -32,6 +36,32 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: options_buttons
+    region: content
+  field_dimensions:
+    weight: 15
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_features:
+    weight: 16
+    settings:
+      rows: 9
+      placeholder: ''
+      summary_rows: 3
+      show_summary: false
+    third_party_settings: {  }
+    type: text_textarea_with_summary
+    region: content
+  field_filling:
+    weight: 14
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
     region: content
   field_model:
     weight: 8
@@ -74,7 +104,7 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: entity_reference_autocomplete_tags
+    type: entity_reference_autocomplete
     region: content
   path:
     type: path

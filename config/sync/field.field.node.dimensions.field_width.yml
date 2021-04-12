@@ -1,0 +1,21 @@
+uuid: 71c4eb7c-ebd7-4fe2-9564-a2d207d9c78b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_width
+    - node.type.dimensions
+  module:
+    - options
+id: node.dimensions.field_width
+field_name: field_width
+entity_type: node
+bundle: dimensions
+label: Ширина
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

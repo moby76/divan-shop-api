@@ -1,13 +1,13 @@
-uuid: 6056ccdf-56fc-4d0f-82cf-6d89e3a52b78
+uuid: 94f519e6-28e7-4ea3-af11-293281d15137
 langcode: en
 status: true
 dependencies:
   config:
-    - node.type.soft_fur
-id: node--soft_fur
+    - node.type.dimensions
+id: node--dimensions
 disabled: false
-path: node/soft_fur
-resourceType: node--soft_fur
+path: node/dimensions
+resourceType: node--dimensions
 resourceFields:
   nid:
     fieldName: nid
@@ -135,63 +135,27 @@ resourceFields:
     enhancer:
       id: ''
     disabled: false
-  field_available:
-    fieldName: field_available
-    publicName: available
-    enhancer:
-      id: ''
-    disabled: false
-  field_dimensions:
-    fieldName: field_dimensions
-    publicName: dimensions
-    enhancer:
-      id: ''
-    disabled: false
-  field_features:
-    fieldName: field_features
-    publicName: features
-    enhancer:
-      id: ''
-    disabled: false
-  field_filling:
-    fieldName: field_filling
-    publicName: filling
+  field_image:
+    fieldName: field_image
+    publicName: image
     enhancer:
       id: ''
     disabled: false
   field_model:
     fieldName: field_model
-    publicName: model
-    enhancer:
-      id: ''
-    disabled: false
-  field_new_item:
-    fieldName: field_new_item
-    publicName: new_item
-    enhancer:
-      id: ''
-    disabled: false
-  field_photo:
-    fieldName: field_photo
-    publicName: photo
-    enhancer:
-      id: ''
-    disabled: false
-  field_price_base:
-    fieldName: field_price_base
-    publicName: price_base
+    publicName: field_model
     enhancer:
       id: ''
     disabled: false
   field_soft_config:
     fieldName: field_soft_config
-    publicName: soft_config
+    publicName: field_soft_config
     enhancer:
       id: ''
     disabled: false
-  field_transformation:
-    fieldName: field_transformation
-    publicName: transformation
+  field_width:
+    fieldName: field_width
+    publicName: field_width
     enhancer:
       id: ''
     disabled: false

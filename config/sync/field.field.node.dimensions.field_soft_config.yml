@@ -1,0 +1,29 @@
+uuid: 53ead688-29ab-4b86-9e9e-01103e526191
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_soft_config
+    - node.type.dimensions
+    - taxonomy.vocabulary.soft_config
+id: node.dimensions.field_soft_config
+field_name: field_soft_config
+entity_type: node
+bundle: dimensions
+label: 'Конфигурация мягкой мебели'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      soft_config: soft_config
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

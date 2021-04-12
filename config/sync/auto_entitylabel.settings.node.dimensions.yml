@@ -1,0 +1,9 @@
+status: 1
+pattern: 'Габариты для: [node:field_soft_config] [node:field_model] [node:field_width]'
+escape: false
+preserve_titles: false
+save: 0
+chunk: '50'
+dependencies:
+  config:
+    - node.type.dimensions

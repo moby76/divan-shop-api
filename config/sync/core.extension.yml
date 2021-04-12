@@ -16,8 +16,10 @@ module:
   ctools: 0
   datetime: 0
   dblog: 0
+  double_field: 0
   dynamic_page_cache: 0
   editor: 0
+  entity_reference_revisions: 0
   field: 0
   field_ui: 0
   file: 0
@@ -25,6 +27,7 @@ module:
   help: 0
   history: 0
   image: 0
+  inline_entity_form: 0
   jsonapi: 0
   jsonapi_extras: 0
   jsonapi_include: 0
