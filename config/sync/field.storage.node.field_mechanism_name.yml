@@ -1,18 +1,20 @@
-uuid: b4dc46af-9a1c-43ef-8aa1-de81d511bed2
+uuid: 63f09574-944f-4c86-a7ea-79e10724dd4c
 langcode: en
 status: true
 dependencies:
   module:
     - node
-id: node.field_transformation
-field_name: field_transformation
+id: node.field_mechanism_name
+field_name: field_mechanism_name
 entity_type: node
-type: entity_reference
+type: string
 settings:
-  target_type: node
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
 module: core
 locked: false
-cardinality: 3
+cardinality: 1
 translatable: true
 indexes: {  }
 persist_with_no_fields: false

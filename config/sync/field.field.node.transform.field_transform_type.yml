@@ -1,0 +1,29 @@
+uuid: b31fa370-f89b-455b-8972-a8cd02a4db84
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_transform_type
+    - node.type.transform
+    - taxonomy.vocabulary.transformation_types
+id: node.transform.field_transform_type
+field_name: field_transform_type
+entity_type: node
+bundle: transform
+label: 'Тип трансформации'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      transformation_types: transformation_types
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,8 @@
+uuid: ac7147b5-fa20-4d5f-aab2-96348cbea316
+langcode: en
+status: true
+dependencies: {  }
+name: 'Типы трансформаций(механизмов)'
+vid: transformation_types
+description: ''
+weight: 0

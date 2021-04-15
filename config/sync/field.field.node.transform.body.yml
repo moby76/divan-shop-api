@@ -1,0 +1,23 @@
+uuid: 572e020d-741f-42e0-9ade-3c812f2a525f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.transform
+  module:
+    - text
+id: node.transform.body
+field_name: body
+entity_type: node
+bundle: transform
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

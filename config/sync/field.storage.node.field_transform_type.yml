@@ -1,18 +1,19 @@
-uuid: b4dc46af-9a1c-43ef-8aa1-de81d511bed2
+uuid: 8f36d8a9-c328-479d-973b-07b549a7756d
 langcode: en
 status: true
 dependencies:
   module:
     - node
-id: node.field_transformation
-field_name: field_transformation
+    - taxonomy
+id: node.field_transform_type
+field_name: field_transform_type
 entity_type: node
 type: entity_reference
 settings:
-  target_type: node
+  target_type: taxonomy_term
 module: core
 locked: false
-cardinality: 3
+cardinality: 1
 translatable: true
 indexes: {  }
 persist_with_no_fields: false

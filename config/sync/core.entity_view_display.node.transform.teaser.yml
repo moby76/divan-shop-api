@@ -1,0 +1,36 @@
+uuid: dcf3e73c-0558-4276-b891-fa17d36ddbfe
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.transform.body
+    - field.field.node.transform.field_mechanism_name
+    - field.field.node.transform.field_transform_type
+    - field.field.node.transform.field_transform_view
+    - node.type.transform
+  module:
+    - text
+    - user
+id: node.transform.teaser
+targetEntityType: node
+bundle: transform
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_mechanism_name: true
+  field_transform_type: true
+  field_transform_view: true

@@ -1,0 +1,27 @@
+uuid: 1422d8a4-9958-40f9-b4b2-f96f44ae8cae
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_transform_view
+    - node.type.transform
+  module:
+    - file
+id: node.transform.field_transform_view
+field_name: field_transform_view
+entity_type: node
+bundle: transform
+label: 'Представление механизма'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'txt mp4 png m4v mov flv f4v ogg ogv wmv vp6 vp5 mpg avi mpeg and webm'
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

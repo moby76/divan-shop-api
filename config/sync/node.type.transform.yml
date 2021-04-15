@@ -1,0 +1,18 @@
+uuid: e745be5b-2a93-4742-aecc-c6987cd4e4f9
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Трансформация
+type: transform
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

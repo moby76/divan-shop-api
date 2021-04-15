@@ -1,0 +1,62 @@
+uuid: 6bd05976-3aed-4cc8-83a9-0d7e5a1664f0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.transform.body
+    - field.field.node.transform.field_mechanism_name
+    - field.field.node.transform.field_transform_type
+    - field.field.node.transform.field_transform_view
+    - node.type.transform
+  module:
+    - file
+    - text
+    - user
+id: node.transform.default
+targetEntityType: node
+bundle: transform
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_mechanism_name:
+    weight: 103
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_transform_type:
+    weight: 102
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_transform_view:
+    weight: 104
+    label: above
+    settings:
+      controls: true
+      multiple_file_display_type: tags
+      width: 500
+      height: 300
+      autoplay: false
+      loop: false
+      muted: false
+    third_party_settings: {  }
+    type: file_video
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

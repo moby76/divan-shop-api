@@ -1,0 +1,31 @@
+uuid: 5da877c8-65d5-4cfd-a9f4-f3d9651d97d8
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.transformaciya
+  module:
+    - views
+name: transformaciya
+label: Трансформация
+display: modal
+display_configuration:
+  width: '1500'
+  height: '500'
+  link_text: 'Select entities'
+  auto_open: false
+selection_display: no_display
+selection_display_configuration: {  }
+widget_selector: tabs
+widget_selector_configuration: {  }
+widgets:
+  7be74499-f913-4f1d-8bb4-37d8ffbb1337:
+    settings:
+      view: transformaciya
+      view_display: entity_browser_1
+      submit_text: 'Select entities'
+      auto_select: false
+    uuid: 7be74499-f913-4f1d-8bb4-37d8ffbb1337
+    weight: 1
+    label: view
+    id: view

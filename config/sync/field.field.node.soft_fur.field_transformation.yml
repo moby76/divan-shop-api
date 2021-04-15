@@ -1,11 +1,11 @@
-uuid: a75ab767-cdb0-46fd-9dd8-702f6b3ce12d
+uuid: ea8e1251-1af5-4602-8c9f-f60fc59b0a77
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_transformation
     - node.type.soft_fur
-    - taxonomy.vocabulary.transformation
+    - node.type.transform
 id: node.soft_fur.field_transformation
 field_name: field_transformation
 entity_type: node
@@ -17,13 +17,13 @@ translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
-  handler: 'default:taxonomy_term'
+  handler: 'default:node'
   handler_settings:
     target_bundles:
-      transformation: transformation
+      transform: transform
     sort:
-      field: name
-      direction: asc
+      field: _none
+      direction: ASC
     auto_create: false
     auto_create_bundle: ''
 field_type: entity_reference
