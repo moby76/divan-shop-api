@@ -1,0 +1,28 @@
+uuid: fb3e8e35-52ae-4d95-b3b6-44aa41fbe3ae
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.shops.body
+    - node.type.shops
+  module:
+    - text
+    - user
+id: node.shops.default
+targetEntityType: node
+bundle: shops
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

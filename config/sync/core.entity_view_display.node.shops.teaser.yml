@@ -1,0 +1,30 @@
+uuid: db233a32-aaee-48e5-bfc3-41a4c122cf9f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.shops.body
+    - node.type.shops
+  module:
+    - text
+    - user
+id: node.shops.teaser
+targetEntityType: node
+bundle: shops
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }
