@@ -4,8 +4,14 @@ status: true
 dependencies:
   config:
     - field.field.node.shops.body
+    - field.field.node.shops.field_floor
+    - field.field.node.shops.field_location
+    - field.field.node.shops.field_phone
+    - filter.format.plain_text
     - node.type.shops
   module:
+    - geolocation
+    - telephone
     - text
     - user
 id: node.shops.default
@@ -20,9 +26,49 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-  links:
-    weight: 100
+  field_floor:
+    weight: 104
+    label: above
     settings: {  }
     third_party_settings: {  }
+    type: text_default
     region: content
+  field_location:
+    weight: 102
+    label: above
+    settings:
+      title: ''
+      set_marker: true
+      common_map: true
+      show_delta_label: false
+      data_provider_settings: {  }
+      map_provider_id: google_maps
+      centre:
+        fit_bounds:
+          enable: true
+          weight: -101
+          map_center_id: fit_bounds
+          settings:
+            reset_zoom: true
+      map_provider_settings: {  }
+      info_text:
+        value: ''
+        format: plain_text
+      use_overridden_map_settings: false
+    third_party_settings: {  }
+    type: geolocation_map
+    region: content
+  field_phone:
+    weight: 103
+    label: above
+    settings:
+      title: ''
+    third_party_settings: {  }
+    type: telephone_link
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden: {  }

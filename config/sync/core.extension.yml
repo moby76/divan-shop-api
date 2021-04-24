@@ -28,6 +28,9 @@ module:
   field_ui: 0
   file: 0
   filter: 0
+  geolocation: 0
+  geolocation_google_maps: 0
+  geolocation_yandex: 0
   help: 0
   history: 0
   image: 0
@@ -50,6 +53,7 @@ module:
   shortcut: 0
   system: 0
   taxonomy: 0
+  telephone: 0
   text: 0
   token: 0
   toolbar: 0

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "96d5a2dee0db90424aa13a2f11c57626",
+    "content-hash": "354e245de1a68560d4278d019db555db",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1510,6 +1510,72 @@
             }
         },
         {
+            "name": "drupal/geolocation",
+            "version": "3.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/geolocation.git",
+                "reference": "8.x-3.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/geolocation-8.x-3.2.zip",
+                "reference": "8.x-3.2",
+                "shasum": "ed6b1e594dd0ad95e52681130a8bcae85d68c305"
+            },
+            "require": {
+                "drupal/core": "^8.7.7 || ^9",
+                "gasparesganga/php-shapefile": ">=3.2",
+                "sibyx/phpgpx": "^1.0"
+            },
+            "require-dev": {
+                "drupal/address": "*",
+                "drupal/geofield": "*",
+                "drupal/geolocation_demo": "*",
+                "drupal/geolocation_geometry": "*",
+                "drupal/geolocation_geometry_data": "*",
+                "drupal/geolocation_geometry_natural_earth_countries": "*",
+                "drupal/geolocation_google_maps": "*",
+                "drupal/geolocation_google_maps_demo": "*",
+                "drupal/geolocation_google_static_maps": "*",
+                "drupal/geolocation_leaflet": "*",
+                "drupal/search_api": "*",
+                "drupal/search_api_location": "*",
+                "drupal/search_api_location_views": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-3.2",
+                    "datestamp": "1590319155",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "derjochenmeyer",
+                    "homepage": "https://www.drupal.org/u/derjochenmeyer"
+                },
+                {
+                    "name": "cadamski",
+                    "homepage": "https://www.drupal.org/u/cadamski"
+                }
+            ],
+            "description": "Provides a simple geolocation Drupal field type to store and display location data (lat, lng).",
+            "homepage": "https://www.drupal.org/project/geolocation",
+            "support": {
+                "source": "http://git.drupal.org/project/geolocation.git",
+                "issues": "https://www.drupal.org/project/issues/geolocation"
+            }
+        },
+        {
             "name": "drupal/imce",
             "version": "2.3.0",
             "source": {
@@ -2127,6 +2193,58 @@
                 "validator"
             ],
             "time": "2020-09-26T15:48:38+00:00"
+        },
+        {
+            "name": "gasparesganga/php-shapefile",
+            "version": "v3.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/gasparesganga/php-shapefile.git",
+                "reference": "3c7e4cb80edb40ff184e3971458577a04845f8da"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gasparesganga/php-shapefile/zipball/3c7e4cb80edb40ff184e3971458577a04845f8da",
+                "reference": "3c7e4cb80edb40ff184e3971458577a04845f8da",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Shapefile\\": "src/Shapefile/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gaspare Sganga",
+                    "email": "contact@gasparesganga.com",
+                    "homepage": "https://gasparesganga.com/labs/php-shapefile/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP library to read and write ESRI Shapefiles, compatible with WKT and GeoJSON",
+            "homepage": "https://gasparesganga.com/labs/php-shapefile/",
+            "keywords": [
+                "ESRI",
+                "Shapefile",
+                "dbf",
+                "geojson",
+                "shape",
+                "shp",
+                "wkt"
+            ],
+            "support": {
+                "issues": "https://github.com/gasparesganga/php-shapefile/issues",
+                "source": "https://github.com/gasparesganga/php-shapefile/tree/v3.4.0"
+            },
+            "time": "2021-01-23T08:10:45+00:00"
         },
         {
             "name": "graham-campbell/result-type",
@@ -3363,6 +3481,55 @@
             ],
             "description": "A polyfill for getallheaders.",
             "time": "2019-03-08T08:55:37+00:00"
+        },
+        {
+            "name": "sibyx/phpgpx",
+            "version": "1.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Sibyx/phpGPX.git",
+                "reference": "e8841db16e751a8968a8c0cdc48100cd74407c3d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Sibyx/phpGPX/zipball/e8841db16e751a8968a8c0cdc48100cd74407c3d",
+                "reference": "e8841db16e751a8968a8c0cdc48100cd74407c3d",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-simplexml": "*",
+                "lib-libxml": "*",
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "evert/phpdoc-md": "~0.2.0",
+                "friendsofphp/php-cs-fixer": "^2.18",
+                "phpunit/phpunit": "^6.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "phpGPX\\": "src/phpGPX/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jakub Dubec",
+                    "email": "jakub.dubec@gmail.com",
+                    "homepage": "https://jakubdubec.me"
+                }
+            ],
+            "description": "A simple PHP library for GPX import/export",
+            "support": {
+                "issues": "https://github.com/Sibyx/phpGPX/issues",
+                "source": "https://github.com/Sibyx/phpGPX/tree/1.1.2"
+            },
+            "time": "2021-02-28T19:29:40+00:00"
         },
         {
             "name": "stack/builder",

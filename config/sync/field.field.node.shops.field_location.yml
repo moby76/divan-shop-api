@@ -1,0 +1,21 @@
+uuid: e1f5d750-b8b6-43bd-91ca-832eaf208eb8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_location
+    - node.type.shops
+  module:
+    - geolocation
+id: node.shops.field_location
+field_name: field_location
+entity_type: node
+bundle: shops
+label: Локация
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: geolocation

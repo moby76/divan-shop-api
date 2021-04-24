@@ -1,0 +1,21 @@
+uuid: dec72519-4d9b-41b7-819f-9819c40f1a38
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_floor
+    - node.type.shops
+  module:
+    - text
+id: node.shops.field_floor
+field_name: field_floor
+entity_type: node
+bundle: shops
+label: Этаж
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text
