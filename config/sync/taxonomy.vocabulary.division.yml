@@ -1,0 +1,8 @@
+uuid: d618d774-2ee7-4916-bea2-993745e008da
+langcode: en
+status: true
+dependencies: {  }
+name: Отдел
+vid: division
+description: ''
+weight: 0

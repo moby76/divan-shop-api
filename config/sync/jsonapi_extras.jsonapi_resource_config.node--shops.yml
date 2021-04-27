@@ -135,6 +135,12 @@ resourceFields:
     enhancer:
       id: ''
     disabled: false
+  field_division:
+    fieldName: field_division
+    publicName: division
+    enhancer:
+      id: ''
+    disabled: false
   field_floor:
     fieldName: field_floor
     publicName: floor

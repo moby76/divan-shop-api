@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.shops.body
+    - field.field.node.shops.field_division
     - field.field.node.shops.field_floor
     - field.field.node.shops.field_location
     - field.field.node.shops.field_phone
@@ -31,6 +32,7 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
+  field_division: true
   field_floor: true
   field_location: true
   field_phone: true

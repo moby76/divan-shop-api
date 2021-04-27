@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.shops.body
+    - field.field.node.shops.field_division
     - field.field.node.shops.field_floor
     - field.field.node.shops.field_location
     - field.field.node.shops.field_phone
@@ -24,6 +25,12 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_division:
+    weight: 27
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
   field_floor:
     weight: 26
     settings:
