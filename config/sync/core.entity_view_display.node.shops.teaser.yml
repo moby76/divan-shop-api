@@ -9,6 +9,7 @@ dependencies:
     - field.field.node.shops.field_floor
     - field.field.node.shops.field_location
     - field.field.node.shops.field_phone
+    - field.field.node.shops.field_work_time
     - node.type.shops
   module:
     - text
@@ -36,3 +37,4 @@ hidden:
   field_floor: true
   field_location: true
   field_phone: true
+  field_work_time: true

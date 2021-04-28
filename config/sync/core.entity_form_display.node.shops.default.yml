@@ -8,9 +8,11 @@ dependencies:
     - field.field.node.shops.field_floor
     - field.field.node.shops.field_location
     - field.field.node.shops.field_phone
+    - field.field.node.shops.field_work_time
     - node.type.shops
   module:
     - geolocation_google_maps
+    - office_hours
     - path
     - telephone
     - text
@@ -327,6 +329,12 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: telephone_default
+    region: content
+  field_work_time:
+    weight: 28
+    settings: {  }
+    third_party_settings: {  }
+    type: office_hours_default
     region: content
   path:
     type: path

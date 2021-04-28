@@ -1,0 +1,27 @@
+uuid: 8b517497-8d24-409c-aa2f-555d086b7d17
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - office_hours
+id: node.field_work_time
+field_name: field_work_time
+entity_type: node
+type: office_hours
+settings:
+  cardinality_per_day: 2
+  time_format: H
+  element_type: office_hours_datetime
+  increment: 30
+  comment: true
+  valhrs: false
+  limit_start: ''
+  limit_end: ''
+module: office_hours
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

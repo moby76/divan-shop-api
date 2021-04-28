@@ -8,10 +8,12 @@ dependencies:
     - field.field.node.shops.field_floor
     - field.field.node.shops.field_location
     - field.field.node.shops.field_phone
+    - field.field.node.shops.field_work_time
     - filter.format.plain_text
     - node.type.shops
   module:
     - geolocation
+    - office_hours
     - telephone
     - text
     - user
@@ -74,6 +76,33 @@ content:
       title: ''
     third_party_settings: {  }
     type: telephone_link
+    region: content
+  field_work_time:
+    weight: 106
+    label: above
+    settings:
+      show_closed: all
+      office_hours_first_day: '1'
+      day_format: long
+      time_format: G
+      closed_format: Закрыто
+      separator:
+        days: '<br />'
+        grouped_days: ' - '
+        day_hours: ': '
+        hours_hours: '-'
+        more_hours: ', '
+      current_status:
+        position: ''
+        open_text: Открыто
+        closed_text: Закрыто
+      compress: false
+      grouped: false
+      schema:
+        enabled: false
+      timezone_field: ''
+    third_party_settings: {  }
+    type: office_hours
     region: content
   links:
     weight: 100

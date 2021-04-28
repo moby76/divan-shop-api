@@ -1,0 +1,56 @@
+uuid: a16a0abc-d8e1-48ee-8c9c-0f65ad01ebea
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_work_time
+    - node.type.shops
+  module:
+    - office_hours
+id: node.shops.field_work_time
+field_name: field_work_time
+entity_type: node
+bundle: shops
+label: 'Часы работы'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    starthours: 900
+    day: 0
+    endhours: 1800
+    comment: ''
+  -
+    starthours: 900
+    day: 1
+    endhours: 1900
+    comment: ''
+  -
+    starthours: 900
+    day: 2
+    endhours: 1900
+    comment: ''
+  -
+    starthours: 900
+    day: 3
+    endhours: 1900
+    comment: ''
+  -
+    starthours: 900
+    day: 4
+    endhours: 1900
+    comment: ''
+  -
+    starthours: 900
+    day: 5
+    endhours: 1900
+    comment: ''
+  -
+    starthours: 900
+    day: 6
+    endhours: 1900
+    comment: ''
+default_value_callback: ''
+settings: {  }
+field_type: office_hours
