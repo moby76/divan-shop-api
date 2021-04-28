@@ -48,3 +48,4 @@ hidden:
   field_price_base: true
   field_soft_config: true
   field_transformation: true
+  langcode: true

@@ -38,3 +38,4 @@ hidden:
   field_location: true
   field_phone: true
   field_work_time: true
+  langcode: true

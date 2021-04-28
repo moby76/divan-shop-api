@@ -36,3 +36,4 @@ hidden:
   field_model: true
   field_soft_config: true
   field_width: true
+  langcode: true

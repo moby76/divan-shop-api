@@ -12,6 +12,7 @@ module:
   color: 0
   comment: 0
   config: 0
+  config_translation: 0
   contact: 0
   contextual: 0
   ctools: 0
@@ -38,7 +39,9 @@ module:
   jsonapi: 0
   jsonapi_extras: 0
   jsonapi_include: 0
+  language: 0
   link: 0
+  locale: 0
   menu_link_content: 0
   menu_ui: 0
   node: 0
