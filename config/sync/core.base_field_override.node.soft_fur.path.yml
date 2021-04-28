@@ -1,0 +1,20 @@
+uuid: e732d283-b0be-4b0d-b8de-1d512cc7f182
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.soft_fur
+  module:
+    - path
+id: node.soft_fur.path
+field_name: path
+entity_type: node
+bundle: soft_fur
+label: 'Синоним URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

@@ -1,0 +1,22 @@
+uuid: 79de055d-16c3-4d45-b0bf-03bc18fd419a
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.transform
+id: node.transform.promote
+field_name: promote
+entity_type: node
+bundle: transform
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

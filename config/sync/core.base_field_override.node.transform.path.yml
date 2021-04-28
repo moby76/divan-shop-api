@@ -1,0 +1,20 @@
+uuid: 7fa5fda2-948a-4b07-b1e4-e324a6fe8a49
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.transform
+  module:
+    - path
+id: node.transform.path
+field_name: path
+entity_type: node
+bundle: transform
+label: 'Синоним URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

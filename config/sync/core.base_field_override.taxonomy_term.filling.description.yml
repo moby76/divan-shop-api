@@ -1,0 +1,20 @@
+uuid: 2829894c-1eac-46d1-b3cb-94d47be3c970
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.filling
+  module:
+    - text
+id: taxonomy_term.filling.description
+field_name: description
+entity_type: taxonomy_term
+bundle: filling
+label: Описание
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

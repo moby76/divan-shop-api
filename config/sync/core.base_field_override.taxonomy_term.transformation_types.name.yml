@@ -1,0 +1,18 @@
+uuid: ad48cd80-c346-460d-a36f-ade95ea0e98a
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.transformation_types
+id: taxonomy_term.transformation_types.name
+field_name: name
+entity_type: taxonomy_term
+bundle: transformation_types
+label: Название
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

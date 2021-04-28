@@ -1,0 +1,22 @@
+uuid: 94c0c37d-ab0e-41f1-b7ec-d4d16523a500
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.variant
+id: taxonomy_term.variant.status
+field_name: status
+entity_type: taxonomy_term
+bundle: variant
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

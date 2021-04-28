@@ -1,0 +1,20 @@
+uuid: 0e433c56-3c00-4361-a745-833c73dd9bc0
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.soft_config
+  module:
+    - text
+id: taxonomy_term.soft_config.description
+field_name: description
+entity_type: taxonomy_term
+bundle: soft_config
+label: Описание
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,18 @@
+uuid: 612fd461-94cb-473c-a396-3010747dc090
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.transform
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: node.transform
+target_entity_type_id: node
+target_bundle: transform
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,18 @@
+uuid: 67101d81-8d06-4b3d-9bcb-94b1cb4028f7
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.filling
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: taxonomy_term.filling
+target_entity_type_id: taxonomy_term
+target_bundle: filling
+default_langcode: site_default
+language_alterable: false

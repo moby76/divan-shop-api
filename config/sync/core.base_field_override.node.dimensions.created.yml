@@ -1,0 +1,18 @@
+uuid: 1805b899-dc6c-4bcf-ba3c-1734536e35b5
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.dimensions
+id: node.dimensions.created
+field_name: created
+entity_type: node
+bundle: dimensions
+label: 'Создан в'
+description: 'Время создания материала.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

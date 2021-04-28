@@ -1,0 +1,20 @@
+uuid: 7314cdd3-1bb7-40fe-ab91-6a468d503e18
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.filling
+  module:
+    - path
+id: taxonomy_term.filling.path
+field_name: path
+entity_type: taxonomy_term
+bundle: filling
+label: 'Синоним URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

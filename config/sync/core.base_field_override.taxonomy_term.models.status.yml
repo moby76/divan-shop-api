@@ -1,0 +1,22 @@
+uuid: 0064ba39-c807-436e-a92e-ea51f2199f37
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.models
+id: taxonomy_term.models.status
+field_name: status
+entity_type: taxonomy_term
+bundle: models
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

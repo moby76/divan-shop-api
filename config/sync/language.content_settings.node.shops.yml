@@ -1,0 +1,18 @@
+uuid: 8b723840-a874-4ffc-8948-7265e4d254bc
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.shops
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: node.shops
+target_entity_type_id: node
+target_bundle: shops
+default_langcode: ru
+language_alterable: true

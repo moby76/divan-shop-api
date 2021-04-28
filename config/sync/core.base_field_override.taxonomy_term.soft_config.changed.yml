@@ -1,0 +1,18 @@
+uuid: 6cfe5b74-a640-4452-9560-f290fe85a317
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.soft_config
+id: taxonomy_term.soft_config.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: soft_config
+label: Изменение
+description: 'Время, когда этот термин был последний раз отредактирован.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

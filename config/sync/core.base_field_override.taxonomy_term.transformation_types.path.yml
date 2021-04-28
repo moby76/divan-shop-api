@@ -1,0 +1,20 @@
+uuid: cf7a64f0-7108-4b40-a5d1-4992508777e7
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.transformation_types
+  module:
+    - path
+id: taxonomy_term.transformation_types.path
+field_name: path
+entity_type: taxonomy_term
+bundle: transformation_types
+label: 'Синоним URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

@@ -1,0 +1,18 @@
+uuid: 0bf645c7-b827-40e8-a086-f246182f5c64
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.dimensions
+id: node.dimensions.title
+field_name: title
+entity_type: node
+bundle: dimensions
+label: Title
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

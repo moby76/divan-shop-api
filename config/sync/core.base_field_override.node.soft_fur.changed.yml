@@ -1,0 +1,18 @@
+uuid: c98dbb7d-76f7-44f2-b7b1-7bc7f122d840
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.soft_fur
+id: node.soft_fur.changed
+field_name: changed
+entity_type: node
+bundle: soft_fur
+label: Изменение
+description: 'Время последнего редактирования материала.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

@@ -1,0 +1,22 @@
+uuid: aea4f1bb-93eb-4ae2-8cc9-3cbfbaaf8984
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.transform
+id: node.transform.status
+field_name: status
+entity_type: node
+bundle: transform
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

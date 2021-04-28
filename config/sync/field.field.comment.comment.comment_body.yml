@@ -1,5 +1,5 @@
 uuid: eae77056-2dfc-4707-98f2-de0969824c92
-langcode: en
+langcode: ru
 status: true
 dependencies:
   config:
@@ -13,10 +13,10 @@ id: comment.comment.comment_body
 field_name: comment_body
 entity_type: comment
 bundle: comment
-label: Comment
+label: Комментарий
 description: ''
 required: true
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }

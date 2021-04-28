@@ -1,0 +1,22 @@
+uuid: 776c4bee-63d4-4a52-bf81-71f0f2568f10
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.soft_fur
+id: node.soft_fur.promote
+field_name: promote
+entity_type: node
+bundle: soft_fur
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,18 @@
+uuid: 5ffabba8-2eff-4064-b26f-7e7898dfc3e7
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.transform
+id: node.transform.created
+field_name: created
+entity_type: node
+bundle: transform
+label: 'Создан в'
+description: 'Время создания материала.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

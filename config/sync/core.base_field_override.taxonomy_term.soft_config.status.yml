@@ -1,0 +1,22 @@
+uuid: 15d48de5-6f4a-4b39-9ee6-eca85f3cc9b8
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.soft_config
+id: taxonomy_term.soft_config.status
+field_name: status
+entity_type: taxonomy_term
+bundle: soft_config
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

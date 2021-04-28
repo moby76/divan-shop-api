@@ -1,0 +1,22 @@
+uuid: 859cf200-d223-4c57-96e6-83ec2a0bbe20
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.filling
+id: taxonomy_term.filling.status
+field_name: status
+entity_type: taxonomy_term
+bundle: filling
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

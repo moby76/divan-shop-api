@@ -1,0 +1,20 @@
+uuid: 274b86ad-69b4-4b5b-b75d-7a0af78016c2
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.transformation_types
+  module:
+    - text
+id: taxonomy_term.transformation_types.description
+field_name: description
+entity_type: taxonomy_term
+bundle: transformation_types
+label: Описание
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

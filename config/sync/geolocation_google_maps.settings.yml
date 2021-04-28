@@ -12,3 +12,4 @@ google_map_api_server_key: ''
 use_current_language: false
 china_mode: false
 google_maps_base_url: ''
+langcode: ru

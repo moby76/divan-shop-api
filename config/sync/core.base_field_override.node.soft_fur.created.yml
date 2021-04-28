@@ -1,0 +1,18 @@
+uuid: acf2cbb8-8096-47f4-8edd-3cea312a31ce
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.soft_fur
+id: node.soft_fur.created
+field_name: created
+entity_type: node
+bundle: soft_fur
+label: 'Создан в'
+description: 'Время создания материала.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

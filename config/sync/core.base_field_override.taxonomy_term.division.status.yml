@@ -1,0 +1,22 @@
+uuid: 21b3ea5c-f9ca-4899-8be4-1368a65d0e2f
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.division
+id: taxonomy_term.division.status
+field_name: status
+entity_type: taxonomy_term
+bundle: division
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

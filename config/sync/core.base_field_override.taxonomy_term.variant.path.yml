@@ -1,0 +1,20 @@
+uuid: adf5ad07-378c-4709-af87-3aa51f9b134a
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.variant
+  module:
+    - path
+id: taxonomy_term.variant.path
+field_name: path
+entity_type: taxonomy_term
+bundle: variant
+label: 'Синоним URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

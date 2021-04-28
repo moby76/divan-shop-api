@@ -1,0 +1,20 @@
+uuid: 2509a770-5931-47c4-b63f-f5285dd2171a
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.models
+  module:
+    - path
+id: taxonomy_term.models.path
+field_name: path
+entity_type: taxonomy_term
+bundle: models
+label: 'Синоним URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

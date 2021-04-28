@@ -1,0 +1,22 @@
+uuid: 14f868c6-9574-4dbb-bd3f-7a3ff658a10c
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.soft_fur
+id: node.soft_fur.sticky
+field_name: sticky
+entity_type: node
+bundle: soft_fur
+label: 'Закреплять вверху списков'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

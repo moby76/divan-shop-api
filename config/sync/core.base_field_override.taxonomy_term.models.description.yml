@@ -1,0 +1,20 @@
+uuid: e56ed432-05c5-4ee2-b896-1dde4bcae010
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.models
+  module:
+    - text
+id: taxonomy_term.models.description
+field_name: description
+entity_type: taxonomy_term
+bundle: models
+label: Описание
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,18 @@
+uuid: ffc849e0-ec5f-49d5-9d5a-6471d84f2d18
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.filling
+id: taxonomy_term.filling.name
+field_name: name
+entity_type: taxonomy_term
+bundle: filling
+label: Название
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

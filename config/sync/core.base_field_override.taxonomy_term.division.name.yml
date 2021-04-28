@@ -1,0 +1,18 @@
+uuid: df692d81-db69-46b7-a3ed-f89748d0d61e
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.division
+id: taxonomy_term.division.name
+field_name: name
+entity_type: taxonomy_term
+bundle: division
+label: Название
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

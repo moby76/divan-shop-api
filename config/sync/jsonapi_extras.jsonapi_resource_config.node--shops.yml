@@ -129,6 +129,18 @@ resourceFields:
     enhancer:
       id: ''
     disabled: false
+  content_translation_source:
+    fieldName: content_translation_source
+    publicName: content_translation_source
+    enhancer:
+      id: ''
+    disabled: false
+  content_translation_outdated:
+    fieldName: content_translation_outdated
+    publicName: content_translation_outdated
+    enhancer:
+      id: ''
+    disabled: false
   body:
     fieldName: body
     publicName: body
@@ -156,6 +168,12 @@ resourceFields:
   field_phone:
     fieldName: field_phone
     publicName: phone
+    enhancer:
+      id: ''
+    disabled: false
+  field_work_time:
+    fieldName: field_work_time
+    publicName: work_time
     enhancer:
       id: ''
     disabled: false

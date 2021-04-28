@@ -1,0 +1,18 @@
+uuid: 479eb07c-580e-46df-9f15-75ec80252da9
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.transformation_types
+id: taxonomy_term.transformation_types.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: transformation_types
+label: Изменение
+description: 'Время, когда этот термин был последний раз отредактирован.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

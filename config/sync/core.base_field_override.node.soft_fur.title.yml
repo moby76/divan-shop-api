@@ -1,0 +1,18 @@
+uuid: d200b210-14fd-48e7-bdae-2286e4621e94
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.soft_fur
+id: node.soft_fur.title
+field_name: title
+entity_type: node
+bundle: soft_fur
+label: Title
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

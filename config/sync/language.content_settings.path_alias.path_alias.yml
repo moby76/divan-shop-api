@@ -1,5 +1,5 @@
 uuid: 59cbfcc7-1be4-4adc-baf9-7857c3d590c2
-langcode: en
+langcode: ru
 status: true
 dependencies:
   module:
@@ -9,5 +9,5 @@ _core:
 id: path_alias.path_alias
 target_entity_type_id: path_alias
 target_bundle: path_alias
-default_langcode: und
+default_langcode: ru
 language_alterable: true

@@ -1,0 +1,20 @@
+uuid: 0657fda0-49ae-4e7d-9171-30fc7bf49eb9
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.soft_config
+  module:
+    - path
+id: taxonomy_term.soft_config.path
+field_name: path
+entity_type: taxonomy_term
+bundle: soft_config
+label: 'Синоним URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

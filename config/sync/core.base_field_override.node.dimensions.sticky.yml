@@ -1,0 +1,22 @@
+uuid: dc6bfe01-da93-4eff-b12e-13c77014d8d5
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.dimensions
+id: node.dimensions.sticky
+field_name: sticky
+entity_type: node
+bundle: dimensions
+label: 'Закреплять вверху списков'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

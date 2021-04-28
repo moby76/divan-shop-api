@@ -1,0 +1,22 @@
+uuid: 333acba2-5027-4d01-b668-8f947de556e5
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.soft_fur
+id: node.soft_fur.status
+field_name: status
+entity_type: node
+bundle: soft_fur
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
