@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.taxonomy_term.models.field_model_desc
     - field.field.taxonomy_term.models.field_name
+    - field.field.taxonomy_term.models.field_new_model
     - field.field.taxonomy_term.models.field_scheme
     - field.field.taxonomy_term.models.field_variant
     - taxonomy.vocabulary.models
@@ -37,6 +38,16 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     type: string
+    region: content
+  field_new_model:
+    weight: 5
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
     region: content
   field_scheme:
     weight: 3

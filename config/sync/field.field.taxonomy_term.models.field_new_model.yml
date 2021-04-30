@@ -1,0 +1,23 @@
+uuid: 956a0a52-0b5b-4375-ab7f-1b2a2511c419
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_new_model
+    - taxonomy.vocabulary.models
+id: taxonomy_term.models.field_new_model
+field_name: field_new_model
+entity_type: taxonomy_term
+bundle: models
+label: 'Это новинка'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Да
+  off_label: Нет
+field_type: boolean

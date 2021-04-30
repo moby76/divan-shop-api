@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.taxonomy_term.models.field_model_desc
     - field.field.taxonomy_term.models.field_name
+    - field.field.taxonomy_term.models.field_new_model
     - field.field.taxonomy_term.models.field_scheme
     - field.field.taxonomy_term.models.field_variant
     - image.style.thumbnail
@@ -35,6 +36,13 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
+    region: content
+  field_new_model:
+    weight: 8
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
     region: content
   field_scheme:
     weight: 7

@@ -6,6 +6,7 @@ dependencies:
     - core.entity_view_mode.taxonomy_term.full
     - field.field.taxonomy_term.models.field_model_desc
     - field.field.taxonomy_term.models.field_name
+    - field.field.taxonomy_term.models.field_new_model
     - field.field.taxonomy_term.models.field_scheme
     - field.field.taxonomy_term.models.field_variant
     - taxonomy.vocabulary.models
@@ -49,5 +50,6 @@ content:
     type: image
     region: content
 hidden:
+  field_new_model: true
   field_variant: true
   langcode: true
