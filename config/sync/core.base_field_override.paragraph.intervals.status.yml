@@ -1,17 +1,17 @@
-uuid: 333acba2-5027-4d01-b668-8f947de556e5
-langcode: ru
+uuid: 08f41365-0829-4e32-b346-4a9fc36d35f2
+langcode: en
 status: true
 dependencies:
   config:
-    - node.type.soft_fur
-id: node.soft_fur.status
+    - paragraphs.paragraphs_type.intervals
+id: paragraph.intervals.status
 field_name: status
-entity_type: node
-bundle: soft_fur
+entity_type: paragraph
+bundle: intervals
 label: Published
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value:
   -
     value: 1

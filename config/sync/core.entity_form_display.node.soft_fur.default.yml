@@ -15,6 +15,7 @@ dependencies:
     - field.field.node.soft_fur.field_price_base
     - field.field.node.soft_fur.field_soft_config
     - field.field.node.soft_fur.field_transformation
+    - field.field.node.soft_fur.field_where
     - image.style.thumbnail
     - node.type.soft_fur
   module:
@@ -29,24 +30,24 @@ mode: default
 content:
   created:
     type: datetime_timestamp
-    weight: 2
+    weight: 3
     region: content
     settings: {  }
     third_party_settings: {  }
   field_available:
-    weight: 12
+    weight: 13
     settings: {  }
     third_party_settings: {  }
     type: options_buttons
     region: content
   field_dimensions:
-    weight: 15
+    weight: 16
     settings: {  }
     third_party_settings: {  }
     type: options_select
     region: content
   field_features:
-    weight: 16
+    weight: 17
     settings:
       rows: 9
       placeholder: ''
@@ -56,7 +57,7 @@ content:
     type: text_textarea_with_summary
     region: content
   field_filling:
-    weight: 13
+    weight: 15
     settings:
       match_operator: CONTAINS
       match_limit: 10
@@ -66,19 +67,19 @@ content:
     type: entity_reference_autocomplete
     region: content
   field_model:
-    weight: 8
+    weight: 9
     settings: {  }
     third_party_settings: {  }
     type: options_select
     region: content
   field_new_item:
-    weight: 11
+    weight: 12
     settings: {  }
     third_party_settings: {  }
     type: options_buttons
     region: content
   field_photo:
-    weight: 10
+    weight: 11
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
@@ -86,20 +87,20 @@ content:
     type: image_image
     region: content
   field_price_base:
-    weight: 9
+    weight: 10
     settings:
       placeholder: ''
     third_party_settings: {  }
     type: number
     region: content
   field_soft_config:
-    weight: 7
+    weight: 8
     settings: {  }
     third_party_settings: {  }
     type: options_select
     region: content
   field_transformation:
-    weight: 26
+    weight: 18
     settings:
       entity_browser: transformaciya
       field_widget_display: rendered_entity
@@ -113,6 +114,12 @@ content:
     third_party_settings: {  }
     type: entity_browser_entity_reference
     region: content
+  field_where:
+    weight: 14
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+    region: content
   langcode:
     type: language_select
     weight: 2
@@ -122,7 +129,7 @@ content:
     third_party_settings: {  }
   path:
     type: path
-    weight: 5
+    weight: 6
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -130,21 +137,21 @@ content:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 3
+    weight: 4
     region: content
     third_party_settings: {  }
   status:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 6
+    weight: 7
     region: content
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 4
+    weight: 5
     region: content
     third_party_settings: {  }
   title:

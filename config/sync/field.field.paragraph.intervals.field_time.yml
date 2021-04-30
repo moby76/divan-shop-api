@@ -1,0 +1,21 @@
+uuid: 1aee652d-0e4a-4784-91a1-aad37b32109d
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_time
+    - paragraphs.paragraphs_type.intervals
+  module:
+    - field_time
+id: paragraph.intervals.field_time
+field_name: field_time
+entity_type: paragraph
+bundle: intervals
+label: Время
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: time_range

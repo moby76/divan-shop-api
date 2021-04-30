@@ -12,8 +12,8 @@ dependencies:
     - filter.format.plain_text
     - node.type.shops
   module:
+    - entity_reference_revisions
     - geolocation
-    - office_hours
     - telephone
     - text
     - user
@@ -78,31 +78,13 @@ content:
     type: telephone_link
     region: content
   field_work_time:
+    type: entity_reference_revisions_entity_view
     weight: 106
     label: above
     settings:
-      show_closed: all
-      office_hours_first_day: '1'
-      day_format: long
-      time_format: G
-      closed_format: Закрыто
-      separator:
-        days: '<br />'
-        grouped_days: ' - '
-        day_hours: ': '
-        hours_hours: '-'
-        more_hours: ', '
-      current_status:
-        position: ''
-        open_text: Открыто
-        closed_text: Закрыто
-      compress: false
-      grouped: false
-      schema:
-        enabled: false
-      timezone_field: ''
+      view_mode: default
+      link: ''
     third_party_settings: {  }
-    type: office_hours
     region: content
   links:
     weight: 100

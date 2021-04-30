@@ -129,6 +129,18 @@ resourceFields:
     enhancer:
       id: ''
     disabled: false
+  content_translation_source:
+    fieldName: content_translation_source
+    publicName: content_translation_source
+    enhancer:
+      id: ''
+    disabled: false
+  content_translation_outdated:
+    fieldName: content_translation_outdated
+    publicName: content_translation_outdated
+    enhancer:
+      id: ''
+    disabled: false
   body:
     fieldName: body
     publicName: body
@@ -192,6 +204,12 @@ resourceFields:
   field_transformation:
     fieldName: field_transformation
     publicName: transformation
+    enhancer:
+      id: ''
+    disabled: false
+  field_where:
+    fieldName: field_where
+    publicName: where
     enhancer:
       id: ''
     disabled: false

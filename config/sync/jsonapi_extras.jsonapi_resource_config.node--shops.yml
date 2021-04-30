@@ -171,6 +171,14 @@ resourceFields:
     enhancer:
       id: ''
     disabled: false
+  field_vremya:
+    fieldName: field_vremya
+    publicName: vremya
+    enhancer:
+      id: date_time
+      settings:
+        dateTimeFormat: 'Y-m-d\TH:i:sO'
+    disabled: false
   field_work_time:
     fieldName: field_work_time
     publicName: work_time

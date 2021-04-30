@@ -1,26 +1,20 @@
-uuid: 8b517497-8d24-409c-aa2f-555d086b7d17
-langcode: en
+uuid: dd53fc67-97f5-45ec-8537-bcce7a4d99d4
+langcode: ru
 status: true
 dependencies:
   module:
+    - entity_reference_revisions
     - node
-    - office_hours
+    - paragraphs
 id: node.field_work_time
 field_name: field_work_time
 entity_type: node
-type: office_hours
+type: entity_reference_revisions
 settings:
-  cardinality_per_day: 2
-  time_format: H
-  element_type: office_hours_datetime
-  increment: 30
-  comment: true
-  valhrs: false
-  limit_start: ''
-  limit_end: ''
-module: office_hours
+  target_type: paragraph
+module: entity_reference_revisions
 locked: false
-cardinality: -1
+cardinality: 7
 translatable: true
 indexes: {  }
 persist_with_no_fields: false

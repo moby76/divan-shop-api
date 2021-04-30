@@ -1,0 +1,18 @@
+uuid: ee84f572-b0ab-4d44-ade9-1a47627f99d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.intervals
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: paragraph.intervals
+target_entity_type_id: paragraph
+target_bundle: intervals
+default_langcode: site_default
+language_alterable: false

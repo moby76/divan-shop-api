@@ -1,29 +1,29 @@
-uuid: fdc76cb2-479c-4978-b811-6d3ce41a503e
+uuid: ec6c9257-2447-4a63-9269-ab2f4dbe258c
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_filling
+    - field.storage.node.field_where
+    - node.type.shops
     - node.type.soft_fur
-    - taxonomy.vocabulary.filling
-id: node.soft_fur.field_filling
-field_name: field_filling
+id: node.soft_fur.field_where
+field_name: field_where
 entity_type: node
 bundle: soft_fur
-label: Наполнение
+label: 'Где купить'
 description: ''
 required: false
 translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
-  handler: 'default:taxonomy_term'
+  handler: 'default:node'
   handler_settings:
     target_bundles:
-      filling: filling
+      shops: shops
     sort:
-      field: name
-      direction: asc
+      field: _none
+      direction: ASC
     auto_create: false
     auto_create_bundle: ''
 field_type: entity_reference

@@ -15,6 +15,7 @@ dependencies:
     - field.field.node.soft_fur.field_price_base
     - field.field.node.soft_fur.field_soft_config
     - field.field.node.soft_fur.field_transformation
+    - field.field.node.soft_fur.field_where
     - node.type.soft_fur
   module:
     - text
@@ -48,4 +49,5 @@ hidden:
   field_price_base: true
   field_soft_config: true
   field_transformation: true
+  field_where: true
   langcode: true

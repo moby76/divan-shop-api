@@ -1,0 +1,10 @@
+uuid: 5524a959-89b0-4899-8d09-76157b59af6e
+langcode: ru
+status: true
+dependencies: {  }
+id: intervals
+label: 'Временные интервалы'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

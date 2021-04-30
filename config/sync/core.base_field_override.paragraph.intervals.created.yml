@@ -1,0 +1,18 @@
+uuid: b016ddbd-0934-4786-82df-d1e2902b3274
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.intervals
+id: paragraph.intervals.created
+field_name: created
+entity_type: paragraph
+bundle: intervals
+label: 'Authored on'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

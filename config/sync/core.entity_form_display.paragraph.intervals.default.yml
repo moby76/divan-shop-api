@@ -1,0 +1,32 @@
+uuid: cc4a9f54-9468-4ee5-a72e-bf1b26c48c32
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.intervals.field_time
+    - field.field.paragraph.intervals.field_week_day
+    - paragraphs.paragraphs_type.intervals
+  module:
+    - field_time
+id: paragraph.intervals.default
+targetEntityType: paragraph
+bundle: intervals
+mode: default
+content:
+  field_time:
+    weight: 1
+    settings:
+      step: '5'
+      enabled: 0
+    third_party_settings: {  }
+    type: time_range_widget
+    region: content
+  field_week_day:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+hidden:
+  created: true
+  status: true

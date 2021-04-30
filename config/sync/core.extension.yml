@@ -26,6 +26,7 @@ module:
   entity_reference_revisions: 0
   entity_reference_views_select: 0
   field: 0
+  field_time: 0
   field_ui: 0
   file: 0
   filter: 0
@@ -55,6 +56,8 @@ module:
   search: 0
   serialization: 0
   shortcut: 0
+  smart_date: 0
+  smart_date_recur: 0
   system: 0
   taxonomy: 0
   telephone: 0
@@ -69,6 +72,7 @@ module:
   pathauto: 1
   content_translation: 10
   views: 10
+  paragraphs: 11
   standard: 1000
 theme:
   bartik: 0

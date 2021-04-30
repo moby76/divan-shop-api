@@ -14,7 +14,7 @@ bundle: soft_fur
 label: Особенности
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

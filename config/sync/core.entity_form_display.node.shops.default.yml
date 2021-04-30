@@ -12,7 +12,7 @@ dependencies:
     - node.type.shops
   module:
     - geolocation_google_maps
-    - office_hours
+    - paragraphs
     - path
     - telephone
     - text
@@ -23,18 +23,18 @@ mode: default
 content:
   created:
     type: datetime_timestamp
-    weight: 2
+    weight: 3
     region: content
     settings: {  }
     third_party_settings: {  }
   field_division:
-    weight: 27
+    weight: 12
     settings: {  }
     third_party_settings: {  }
     type: options_select
     region: content
   field_floor:
-    weight: 26
+    weight: 11
     settings:
       size: 60
       placeholder: ''
@@ -42,7 +42,7 @@ content:
     type: text_textfield
     region: content
   field_location:
-    weight: 7
+    weight: 8
     settings:
       centre:
         client_location:
@@ -324,17 +324,23 @@ content:
     type: geolocation_googlegeocoder
     region: content
   field_phone:
-    weight: 8
+    weight: 9
     settings:
       placeholder: ''
     third_party_settings: {  }
     type: telephone_default
     region: content
   field_work_time:
-    weight: 28
-    settings: {  }
+    type: entity_reference_paragraphs
+    weight: 26
+    settings:
+      title: Параграф
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
     third_party_settings: {  }
-    type: office_hours_default
     region: content
   langcode:
     type: language_select
@@ -345,7 +351,7 @@ content:
     third_party_settings: {  }
   path:
     type: path
-    weight: 5
+    weight: 6
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -353,21 +359,21 @@ content:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 3
+    weight: 4
     region: content
     third_party_settings: {  }
   status:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 6
+    weight: 7
     region: content
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 4
+    weight: 5
     region: content
     third_party_settings: {  }
   title:
@@ -377,6 +383,11 @@ content:
     settings:
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  translation:
+    weight: 10
+    region: content
+    settings: {  }
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete

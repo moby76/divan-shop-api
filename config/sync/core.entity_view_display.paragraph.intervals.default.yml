@@ -1,0 +1,33 @@
+uuid: fb136577-961d-43fb-bd43-2764de472f6b
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.intervals.field_time
+    - field.field.paragraph.intervals.field_week_day
+    - paragraphs.paragraphs_type.intervals
+  module:
+    - field_time
+    - options
+id: paragraph.intervals.default
+targetEntityType: paragraph
+bundle: intervals
+mode: default
+content:
+  field_time:
+    weight: 1
+    label: hidden
+    settings:
+      timerange_format: 'start ~ end'
+      time_format: 'H:i'
+    third_party_settings: {  }
+    type: time_range_formatter
+    region: content
+  field_week_day:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+hidden: {  }

@@ -1,0 +1,21 @@
+uuid: 21ab0b8d-7309-45d3-8fc5-e4b0fff11e8c
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_week_day
+    - paragraphs.paragraphs_type.intervals
+  module:
+    - options
+id: paragraph.intervals.field_week_day
+field_name: field_week_day
+entity_type: paragraph
+bundle: intervals
+label: 'День недели'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string
