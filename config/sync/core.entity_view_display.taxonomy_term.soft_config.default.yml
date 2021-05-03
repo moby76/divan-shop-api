@@ -1,0 +1,33 @@
+uuid: 89e08142-bba0-4628-881a-765fbc534bb7
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.soft_config.field_config_image
+    - taxonomy.vocabulary.soft_config
+  module:
+    - image
+    - text
+id: taxonomy_term.soft_config.default
+targetEntityType: taxonomy_term
+bundle: soft_config
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_config_image:
+    weight: 1
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  langcode: true
