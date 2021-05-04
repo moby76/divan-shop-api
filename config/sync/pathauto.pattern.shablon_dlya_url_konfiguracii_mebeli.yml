@@ -1,0 +1,23 @@
+uuid: 17680a84-429c-4250-96fe-41fe39da3bda
+langcode: ru
+status: true
+dependencies:
+  module:
+    - ctools
+    - taxonomy
+id: shablon_dlya_url_konfiguracii_mebeli
+label: 'Шаблон для url Конфигурации мебели'
+type: 'canonical_entities:taxonomy_term'
+pattern: '[term:name]'
+selection_criteria:
+  1f862b33-4e15-4ffb-9b04-56d8b0c4ef8f:
+    id: 'entity_bundle:taxonomy_term'
+    bundles:
+      soft_config: soft_config
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    uuid: 1f862b33-4e15-4ffb-9b04-56d8b0c4ef8f
+selection_logic: and
+weight: -5
+relationships: {  }
