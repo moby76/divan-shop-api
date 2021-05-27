@@ -29,12 +29,12 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: 101
+    weight: 1
     settings: {  }
     third_party_settings: {  }
     region: content
   field_available:
-    weight: 102
+    weight: 2
     label: above
     settings:
       format: default
@@ -44,7 +44,7 @@ content:
     type: boolean
     region: content
   field_dimensions:
-    weight: 110
+    weight: 9
     label: above
     settings:
       view_mode: default
@@ -53,14 +53,14 @@ content:
     type: entity_reference_entity_view
     region: content
   field_features:
-    weight: 111
+    weight: 10
     label: above
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
   field_filling:
-    weight: 109
+    weight: 8
     label: above
     settings:
       link: true
@@ -68,7 +68,7 @@ content:
     type: entity_reference_label
     region: content
   field_model:
-    weight: 107
+    weight: 7
     label: above
     settings:
       link: true
@@ -76,7 +76,7 @@ content:
     type: entity_reference_label
     region: content
   field_new_item:
-    weight: 104
+    weight: 4
     label: above
     settings:
       format: default
@@ -86,7 +86,7 @@ content:
     type: boolean
     region: content
   field_photo:
-    weight: 105
+    weight: 5
     label: above
     settings:
       image_style: large
@@ -95,7 +95,7 @@ content:
     type: image
     region: content
   field_price_base:
-    weight: 103
+    weight: 3
     label: above
     settings:
       thousand_separator: ''
@@ -104,7 +104,7 @@ content:
     type: number_integer
     region: content
   field_soft_config:
-    weight: 106
+    weight: 6
     label: above
     settings:
       link: true
@@ -112,7 +112,7 @@ content:
     type: entity_reference_label
     region: content
   field_transformation:
-    weight: 112
+    weight: 11
     label: above
     settings:
       view_mode: default
@@ -121,7 +121,7 @@ content:
     type: entity_reference_entity_view
     region: content
   field_where:
-    weight: 113
+    weight: 12
     label: above
     settings:
       link: true
@@ -129,7 +129,7 @@ content:
     type: entity_reference_label
     region: content
   links:
-    weight: 100
+    weight: 0
     region: content
     settings: {  }
     third_party_settings: {  }

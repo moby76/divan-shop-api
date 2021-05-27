@@ -15,4 +15,4 @@ id: node.soft_fur
 target_entity_type_id: node
 target_bundle: soft_fur
 default_langcode: site_default
-language_alterable: true
+language_alterable: false
