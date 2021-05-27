@@ -30,6 +30,8 @@
         "drupal/entity_reference_revisions": "^1.9",
         "drupal/entity_reference_views": "^1.0@beta",
         "drupal/entity_reference_views_select": "^1.4",
+        "drupal/field_group": "^3.1",
+        "drupal/field_states_ui": "^2.0",
         "drupal/field_time": "^1.0@beta",
         "drupal/geolocation": "^3.2",
         "drupal/imce": "^2.3",
