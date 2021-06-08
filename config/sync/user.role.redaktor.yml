@@ -1,0 +1,9 @@
+uuid: 6366bd5d-7331-437e-bd55-906aeeab6fc3
+langcode: ru
+status: true
+dependencies: {  }
+id: redaktor
+label: Редактор
+weight: 3
+is_admin: null
+permissions: {  }

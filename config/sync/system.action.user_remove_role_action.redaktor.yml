@@ -1,0 +1,14 @@
+uuid: a8e6288d-ab5c-474d-adce-f53bb441a6ec
+langcode: ru
+status: true
+dependencies:
+  config:
+    - user.role.redaktor
+  module:
+    - user
+id: user_remove_role_action.redaktor
+label: 'Удалить роль Редактор из выбранных пользователей'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: redaktor

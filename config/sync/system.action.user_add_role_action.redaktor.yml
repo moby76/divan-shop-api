@@ -1,0 +1,14 @@
+uuid: c130ec53-dc0b-49e4-a126-11631efcd87f
+langcode: ru
+status: true
+dependencies:
+  config:
+    - user.role.redaktor
+  module:
+    - user
+id: user_add_role_action.redaktor
+label: 'Добавьте роль Редактор выбранным пользователям'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: redaktor
